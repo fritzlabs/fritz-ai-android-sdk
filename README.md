@@ -25,4 +25,4 @@ dependencies {
 }
 ```
 
-Functions that previous made calls to the Fritz AI backend service now simple return null.
+Functions that previously made calls to the Fritz AI backend service now simply return null.
