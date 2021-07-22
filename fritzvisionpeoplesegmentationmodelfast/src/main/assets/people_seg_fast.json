@@ -1,0 +1,6 @@
+{
+  "model_path": "file:///android_asset/people_segmentation_mobilenet_256x256_75_1578339459.tflite",
+  "pinned_version": 14,
+  "model_version": 14,
+  "model_id": "27867a7019c84534a5af5b9e39fb3869"
+}

@@ -1,0 +1,6 @@
+{
+  "model_path": "file:///android_asset/outdoor_segmentation_mobilenet_512x512_75_1578347006.tflite",
+  "pinned_version": 5,
+  "model_version": 5,
+  "model_id": "1dc41570ed1a492f8cb0f0849a6afe34"
+}

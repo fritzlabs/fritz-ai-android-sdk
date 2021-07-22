@@ -1,0 +1,86 @@
+{
+    "BLUE_ARROW_MODEL": {
+        "model_path": "file:///android_asset/blue_arrow_style_512x512_25_large_1572279528.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "6c93181a09c44a67bad3103e1ba47a23"
+    },
+    "CHRISTMAS_LIGHTS_MODEL": {
+        "model_path": "file:///android_asset/christmas_lights_style_512x512_25_large_1572295143.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "f7d3fd8f428f451f955e260500bbc91e"
+    },
+    "COMIC_MODEL": {
+        "model_path": "file:///android_asset/comic_style_512x512_25_large_1572279538.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "ad59f88566cf4da19e4f806b0dee100d"
+    },
+    "FILAMENT_MODEL": {
+        "model_path": "file:///android_asset/filament_style_512x512_25_large_1572279558.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "950cd8e7b41046a9a619196bb141721e"
+    },
+    "LAMP_POST_MODEL": {
+        "model_path": "file:///android_asset/lamp_post_style_512x512_25_large_1572279612.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "79ed18367f194ab797640c94449a0d45"
+    },
+    "MOSAIC_MODEL": {
+        "model_path": "file:///android_asset/mosaic_style_512x512_25_large_1572279622.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "6e48def6ecd04c29bc38b13c5806e3d5"
+    },
+    "NOTRE_DAME_MODEL": {
+        "model_path": "file:///android_asset/notre_dame_style_512x512_25_large_1572279632.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "509f03b6d9334a63aa6a9fc2a2344317"
+    },
+    "SHADES_MODEL": {
+        "model_path": "file:///android_asset/shades_style_512x512_25_large_1572279672.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "3fa780c3c3a249b18fb285ef06da3a39"
+    },
+    "SKETCH_MODEL": {
+        "model_path": "file:///android_asset/sketch_style_512x512_25_large_1572279682.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "9885fbdb19074967bba5aedade300a70"
+    },
+    "SNOWFLAKE_MODEL": {
+        "model_path": "file:///android_asset/snowflake_style_512x512_25_large_1572279692.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "d78efaccc31a4c9bb05117df85e4c8c7"
+    },
+    "SPRINKLES_MODEL": {
+        "model_path": "file:///android_asset/sprinkles_style_512x512_25_large_1572279703.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "9bf78b0322094303bcc93fc759f623bb"
+    },
+    "SWIRL_MODEL": {
+        "model_path": "file:///android_asset/swirl_style_512x512_25_large_1572279723.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "c13b1ac3386e4eb6a2771048d1030d74"
+    },
+    "TILE_MODEL": {
+        "model_path": "file:///android_asset/tile_style_512x512_25_large_1572295107.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "0954a2153302414c90d7ec02d2d76717"
+    },
+    "VECTOR_MODEL": {
+        "model_path": "file:///android_asset/vector_style_512x512_25_large_1572295092.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "a8250bfc40a945d684d648619b68b781"
+    }
+}

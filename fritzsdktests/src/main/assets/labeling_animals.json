@@ -1,0 +1,14 @@
+{
+  "model_path": "file:///android_asset/Animals.tflite",
+  "pinned_version": 1,
+  "model_version": 1,
+  "model_id": "dc546624923d42e2a1bd9a67b989e9f5",
+  "labels": [
+    "otter",
+    "orangutan",
+    "capybara",
+    "penguin",
+    "polar bear",
+    "tiger"
+  ]
+}

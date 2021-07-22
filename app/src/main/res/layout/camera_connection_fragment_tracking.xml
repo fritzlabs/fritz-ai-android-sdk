@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ai.fritz.aistudio.ui.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true" />
+
+    <ai.fritz.aistudio.ui.OverlayView
+        android:id="@+id/debug_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true" />
+
+    <ImageButton
+        android:id="@+id/camera_switch_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:padding="@dimen/margin_sm"
+        android:src="@drawable/ic_camera_switch" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_md"
+        android:paddingEnd="@dimen/margin_md"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:translationZ="1dp">
+        <Button
+            android:id="@+id/choose_model_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corner_triangle"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/margin_sm"
+            android:paddingBottom="@dimen/margin_sm"
+            android:textAlignment="gravity"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <include layout="@layout/bottom_sheet"
+        android:visibility="gone"/>
+
+</RelativeLayout>

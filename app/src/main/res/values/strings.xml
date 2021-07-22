@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Fritz AI Studio</string>
+    <!-- In the MainActivity -->
+    <string name="demo_title">MODELS</string>
+
+    <string name="fritz_vision_test_title">Choose an image to run inference.</string>
+    <string name="fritz_vision_test_description">Test out a model on a still image. Useful for evaluating performance or making sure everything is done correctly for the SDK.</string>
+
+    <string name="fritz_vision_style_transfer">Style Transfer</string>
+    <string name="fritz_vision_style_transfer_description">Apply stylistic effects to live video.</string>
+
+    <string name="image_labeling_title">Image Labeling</string>
+    <string name="image_labeling_description">Label the contents of an image in real-time.</string>
+
+    <string name="fritz_customtfmobile_title">Custom TFMobile Model</string>
+    <string name="fritz_customtfmobile_description">Uses a TFMobile model to label images.</string>
+    
+    <string name="fritz_customtflite_title">Custom TFLite Model</string>
+    <string name="fritz_customtflite_description">Uses a TFLite model to identify handwritten numbers.</string>
+    
+    <string name="fritz_object_detection_title">Object Detection</string>
+    <string name="fritz_object_detection_title_tfl">Object Detection (Tensorflow Lite)</string>
+    <string name="fritz_object_detection_description">Detect objects in a scene and draw bounding boxes around them.</string>
+
+    <string name="fritz_pose_estimation_title">Pose Estimation</string>
+    <string name="fritz_pose_estimation_description">Identify and track the body position of a person in real-time.</string>
+
+    <string name="fritz_hair_color_title">Hair Coloring</string>
+    <string name="fritz_hair_color_description">Change your hair color with Image Segmentation.</string>
+
+    <string name="fritz_people_segmentation_title">People Segmentation</string>
+    <string name="fritz_people_segmentation_description">Create a mask of people with Image Segmentation.</string>
+
+    <string name="fritz_pet_segmentation_title">Pet Segmentation</string>
+    <string name="fritz_pet_segmentation_description">Create a mask of your pets with Image Segmentation.</string>
+
+    <string name="fritz_sky_segmentation_title">Sky Segmentation</string>
+    <string name="fritz_sky_segmentation_description">Create a mask of the sky with Image Segmentation.</string>
+
+    <string name="fritz_vision_img_seg_title">Image Segmentation</string>
+    <string name="fritz_vision_img_seg_description">Automatically separate people and objects from the background of images and video.</string>
+
+    <string name="fritz_background_replacement_title">Background Replacement</string>
+    <string name="fritz_background_replacement_description">Replace the background of an image with People Segmentation</string>
+
+    <string name="fritz_depth_title">Depth Estimation</string>
+    <string name="fritz_depth_description">Estimate each pixel\'s distance from camera.</string>
+
+    <string name="fritz_info_title">Learn More About Fritz</string>
+    <string name="fritz_info_description">Want to add these machine learning features to your app? Check out our SDK for more details.</string>
+
+    <string name="fritz_develop_title">Sign Up</string>
+    <string name="fritz_develop_description">Fritz is the machine learning platform for iOS and Android developers. Teach your mobile apps to to see, hear, sense, and think.</string>
+
+    <string name="depth">Depth\n(meters)</string>
+
+    <string name="show_depth_map_btn">Depth Map</string>
+    <string name="depth_of_field_btn">Field Blur</string>
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="toggle_turn_on">NN:On</string>
+    <string name="toggle_turn_off">NN:Off</string>
+    <string name="toggle">Use NNAPI</string>
+    <string name="clear">Clear</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="detect">Detect</string>
+    <string name="not_detected">Not detected</string>
+    <string name="found_digits">Detected = %1$s</string>
+    <string name="available_models">Available Models</string>
+    <string-array name="img_seg_model_options">
+        <item>People Fast</item>
+        <item>People Accurate</item>
+        <item>Living Room Fast</item>
+        <item>Outdoor Fast</item>
+    </string-array>
+    <string-array name="style_transfer_options">
+        <item>Bicentennial Print</item>
+        <item>Femmes</item>
+        <item>Head of Clown</item>
+        <item>Horses on Seashore</item>
+        <item>Kaleidoscope</item>
+        <item>Pink Blue Rhombus</item>
+        <item>Poppy Field</item>
+        <item>Ritmo Plastico</item>
+        <item>Starry Night</item>
+        <item>The Scream</item>
+        <item>The Trail</item>
+    </string-array>
+</resources>

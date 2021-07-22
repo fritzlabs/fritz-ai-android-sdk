@@ -1,0 +1,8 @@
+{
+  "model_path": "file:///android_asset/pose_mobilenet_353x257_5_8_large_1565627685.tflite",
+  "pinned_version": 1,
+  "model_version": 1,
+  "model_id": "4a9c7d1c0e4844229a02a691c06ff496",
+  "use_displacements": true,
+  "output_stride": 8
+}

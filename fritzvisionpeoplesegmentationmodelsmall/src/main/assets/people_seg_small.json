@@ -1,0 +1,6 @@
+{
+  "model_path": "file:///android_asset/segmentation_mobilenet_224x224_1_1565808734_quantized.tflite",
+  "pinned_version": 1,
+  "model_version": 1,
+  "model_id": "2431314631a54dbf9b7e46e808dabe2a"
+}

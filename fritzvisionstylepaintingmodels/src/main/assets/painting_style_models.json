@@ -1,0 +1,68 @@
+{
+    "BICENTENNIAL_PRINT_MODEL": {
+        "model_path": "file:///android_asset/bicentennial_print_style_512x512_25_large_1572279517.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "1508a3d631d046f2b935f0595298594a"
+    },
+    "FEMMES_MODEL": {
+        "model_path": "file:///android_asset/femmes_style_512x512_25_large_1572279548.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "9a58facbc2674ec9b8e63afca3a6d92b"
+    },
+    "HEAD_OF_CLOWN_MODEL": {
+        "model_path": "file:///android_asset/head_of_clown_style_512x512_25_large_1572279579.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "a6fba2e18b3e406d93553ac6326f8fbc"
+    },
+    "HORSES_ON_SEASHORE_MODEL": {
+        "model_path": "file:///android_asset/horses_on_seashore_style_512x512_25_large_1572279590.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "4ceda4077867455cb53ee8756eda19a6"
+    },
+    "KALEIDOSCOPE_MODEL": {
+        "model_path": "file:///android_asset/kaleidoscope_style_512x512_25_large_1572279601.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "9a5fc79374d74ae496221cc230e13951"
+    },
+    "PINK_BLUE_RHOMBUS_MODEL": {
+        "model_path": "file:///android_asset/pink_blue_rhombus_style_512x512_25_large_1572279642.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "ab8660480732436583140e69aaa809a5"
+    },
+    "POPPY_FIELD_MODEL": {
+        "model_path": "file:///android_asset/poppy_field_style_512x512_25_large_1572279652.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "f4064551bd794e23b1a96ba44ce99090"
+    },
+    "RITMO_PLASTICO_MODEL": {
+        "model_path": "file:///android_asset/ritmo_plastico_style_512x512_25_large_1572279663.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "6f2b9254aa7147d6b30ea599e990f645"
+    },
+    "STARRY_NIGHT_MODEL": {
+        "model_path": "file:///android_asset/starry_night_style_512x512_25_large_1572279713.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "75e66d2f3a8a4c11b6993a05c18b2033"
+    },
+    "THE_SCREAM_MODEL": {
+        "model_path": "file:///android_asset/the_scream_style_512x512_25_large_1572279733.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "7427191c48084f7a8fd99f3273d6c6a9"
+    },
+    "THE_TRAIL_MODEL": {
+        "model_path": "file:///android_asset/the_trial_style_512x512_25_large_1572279743.tflite",
+        "model_version": 1,
+        "pinned_version": 1,
+        "model_id": "4d93c7090a554799aeedb1b093e229fb"
+    }
+}

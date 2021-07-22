@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "93614504629",
+    "firebase_url": "https://heartbeat-93425.firebaseio.com",
+    "project_id": "heartbeat-93425",
+    "storage_bucket": "heartbeat-93425.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93614504629:android:cdb12892286e5025",
+        "android_client_info": {
+          "package_name": "ai.fritz.heartbeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93614504629-i53knu2j984cm6vfsdmn05usbvbdeq5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6AXf79IDcPnkGi8NmVQ_jTG29Wymby8M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

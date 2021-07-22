@@ -1,0 +1,232 @@
+/**
+    TYPOGRAPHY
+**/
+body {
+  font-family: 'SF Display', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/**
+    SHADOWS
+**/
+.navbar-fixed {
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+#search_filtered_div {
+    box-shadow: 0 0 4px rgba(0,0,0,.1), 0 4px 8px rgba(0,0,0,.15);
+}
+#jd-header {
+    box-shadow: -2px 1px 8px rgba(0,0,0,.15);
+}
+
+
+/**
+    LAYOUT
+**/
+.navbar-fixed {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navbar-fixed .nav-upper,
+.navbar-fixed .nav-lower {
+    position: relative;
+}
+.copyright {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    color: #6e6e6e;
+    white-space: nowrap;
+}
+
+
+/**
+    TOP NAVIGATION
+**/
+/**
+    TOP NAVIGATION
+**/
+.navbar-fixed {
+    text-align: left;
+    background: #424242;
+    transition: all 0.5s;
+}
+.navbar-fixed .nav-upper,
+.navbar-fixed .nav-lower {
+    padding: 0 20px;
+    height: 50px;
+    line-height: 50px;
+}
+.navbar-fixed .nav-lower {
+    padding-right: 0;
+}
+.navbar-fixed .nav-upper {
+    background-color: #212121;
+}
+.navbar-fixed .nav-lower .title {
+    color: #fefefe;
+    padding: 15px 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.navbar-fixed .nav-lower .title a {
+    color: inherit;
+    text-decoration: none;
+}
+.navbar-fixed .pull-left{
+    float: left;
+}
+.navbar-fixed .pull-right{
+    float: right;
+}
+.navbar-fixed ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    font-size: 0;
+}
+.navbar-fixed ul li {
+    display: inline-block;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    margin: 0 10px;
+}
+.navbar-fixed ul li a {
+    color: #aeaeae;
+    height: 100%;
+    text-decoration: none;
+    padding: 0;
+}
+.navbar-fixed ul li.active a,
+.navbar-fixed ul li a:hover {
+    border-bottom: 2px solid;
+    padding-bottom: 4px;
+}
+.navbar-fixed ul .help a:hover,
+.navbar-fixed ul .brand a:hover {
+    /* these override navbar ul li a:hover hover styles */
+    border-bottom: none;
+}
+.navbar-fixed ul li a.navbar-button {
+    color: #ffffff;
+    background-color: #212121;
+    border: 2px solid #9e8d37;
+    padding: 5px 12px;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4), 2px 2px 8px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4), 2px 2px 8px rgba(0, 0, 0, 0.4);
+    -o-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4), 2px 2px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4), 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+.navbar-fixed ul li a.navbar-button:hover {
+    border-color: #bfac49;
+}
+.navbar-fixed ul li a.help {
+    font-size: 14px;
+    margin-right: 0;
+}
+.navbar-fixed ul li a:hover {
+    color: #ffffff;
+}
+.navbar-fixed ul.nav-items-left li {
+    display: inline-block;
+    float: left;
+    height: 50px;
+    color: inherit;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+}
+.navbar-fixed ul.nav-items-left li.brand {
+    margin-left: 0;
+}
+.navbar-fixed ul.nav-items-left li.brand a {
+    font-family: 'Saveur Sans', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.2em;
+    color: #9e8d37;
+    background: -webkit-linear-gradient(#B3A662, #7A6D2B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar-fixed ul.nav-items-right li {
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+}
+.navbar-fixed .logo {
+    width: 32px;
+    margin: 0;
+    margin-right: 12px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+
+/**
+    SEARCH
+**/
+#searchForm {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    background: #656565;
+}
+#search td,
+#search input {
+    font-size: 16px;
+    color: #f1f1f1;
+}
+#search input {
+    border: none;
+    outline: none;
+    background: inherit;
+}
+table.gsc-search-box {
+    margin: 0;
+    padding-left: 12px;
+}
+.gsc-search-button {
+    display: none;
+}
+input.gsc-input {
+    width: 240px;
+    padding: 6px 12px;
+}
+td.gsc-input {
+    padding-left: 12px;
+}
+
+
+/**
+    MEDIA QUERIES
+**/
+@media (max-width: 768px) {
+    .navbar-fixed .nav-upper,
+    #search {
+        display: none;
+    }
+    .navbar-fixed {
+        height: 50px; /*only bottom navbar*/
+    }
+    body {
+        padding-top: 50px;  /*only bottom navbar*/
+    }
+}
+@media (min-width: 769px) {
+    body {
+        padding-top: 100px;  /*height of navbar*/
+    }
+}

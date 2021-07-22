@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- In the production demo account -->
+    <string name="inception_v3_model_id">08c1cea18756489cb244952aa7b218a0</string>
+    <string name="tflite_model_id">7bf64aad64b7420f94f9c106a5e96cbd</string>
+    <string name="custom_style_transfer_model_id">fd03319d81ba4626869f433df75e00d1</string>
+    <string name="object_detection_model_tfl">b5e9b34bfb074b60ba7f33ffa392edb4</string>
+</resources>

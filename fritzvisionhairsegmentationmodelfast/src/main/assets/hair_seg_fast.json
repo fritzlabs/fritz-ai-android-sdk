@@ -1,0 +1,6 @@
+{
+  "model_path": "file:///android_asset/hair_segmentation_mobilenet_256x256_5_1578340708.tflite",
+  "pinned_version": 15,
+  "model_version": 15,
+  "model_id": "38e77a3324554e47955f53f0202f3be1"
+}

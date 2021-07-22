@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        applicationId "ai.fritz.sdktests"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        renderscriptTargetApi 21
+        renderscriptSupportModeEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    aaptOptions {
+        noCompress "tflite"
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    android {
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation project(":fritzvision")
+    implementation project(":fritzvisionCV")
+    implementation project(':fritzvisionobjectdetectionmodelfast')
+
+    implementation project(':fritzvisionhairsegmentationmodelfast')
+    implementation project(':fritzvisionhairsegmentationmodelsmall')
+    implementation project(':fritzvisionhairsegmentationmodelaccurate')
+
+    implementation project(':fritzvisionoutdoorsegmentationmodelfast')
+    implementation project(':fritzvisionoutdoorsegmentationmodelsmall')
+    implementation project(':fritzvisionoutdoorsegmentationmodelaccurate')
+
+    implementation project(':fritzvisionlivingroomsegmentationmodelfast')
+    implementation project(':fritzvisionlivingroomsegmentationmodelsmall')
+
+    implementation project(':fritzvisionpeoplesegmentationmodelsmall')
+    implementation project(':fritzvisionpeoplesegmentationmodelfast')
+    implementation project(':fritzvisionpeoplesegmentationmodelaccurate')
+
+    implementation project(':fritzvisionpetsegmentationmodelfast')
+    implementation project(':fritzvisionpetsegmentationmodelsmall')
+    implementation project(':fritzvisionpetsegmentationmodelaccurate')
+
+    implementation project(':fritzvisionlabelmodelfast')
+    implementation project(':fritzvisionstylepaintingmodels')
+
+    implementation project(':fritzvisionposeestimationmodelfast')
+    implementation project(':fritzvisionposeestimationmodelsmall')
+    implementation project(':fritzvisionposeestimationmodelaccurate')
+
+    implementation project(':fritzvisionskysegmentationmodelfast')
+    implementation project(':fritzvisionskysegmentationmodelsmall')
+    implementation project(':fritzvisionskysegmentationmodelaccurate')
+
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+}

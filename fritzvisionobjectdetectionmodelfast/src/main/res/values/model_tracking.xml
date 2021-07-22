@@ -1,0 +1,4 @@
+<resources>
+    <string name="object_detect_model_id">5d46c6df812a46f182e4e861aa13bda5</string>
+    <integer name="object_detect_version_num">1</integer>
+</resources>

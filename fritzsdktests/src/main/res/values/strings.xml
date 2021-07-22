@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">fritztestassets</string>
+    <string-array name="labels">
+        <item>dog</item>
+        <item>person</item>
+        <item>cat</item>
+        <item>mouse</item>
+        <item>rat</item>
+        <item>dragon</item>
+        <item>lamb</item>
+        <item>chicken</item>
+        <item>sheep</item>
+        <item>horse</item>
+    </string-array>
+</resources>

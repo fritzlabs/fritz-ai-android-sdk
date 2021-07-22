@@ -1,0 +1,8 @@
+{
+  "model_path": "file:///android_asset/tfjs_pose_mobilenet_tensorflow_js_513x385_1_8_large_1568944757.tflite",
+  "pinned_version": 1,
+  "model_version": 1,
+  "model_id": "5f564769e96f4f148efb6fedb6cce54b",
+  "use_displacements": true,
+  "output_stride": 8
+}

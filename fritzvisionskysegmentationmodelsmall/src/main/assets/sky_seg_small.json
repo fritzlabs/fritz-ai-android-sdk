@@ -1,0 +1,6 @@
+{
+  "model_path": "file:///android_asset/sky_segmentation_mobilenet_256x256_75_1568564282.tflite",
+  "pinned_version": 2,
+  "model_version": 2,
+  "model_id": "85a26723fe20428ea5d7b25f6bd681e1"
+}

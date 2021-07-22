@@ -1,0 +1,6 @@
+{
+  "model_path": "file:///android_asset/pet_segmentation_mobilenet_256x256_75_1568563919.tflite",
+  "pinned_version": 2,
+  "model_version": 2,
+  "model_id": "88584d8a71b14648a8be45239d10f265"
+}

@@ -1,0 +1,6 @@
+{
+  "model_path": "file:///android_asset/living_room_segmentation_mobilenet_256x256_75_1568564401.tflite",
+  "pinned_version": 2,
+  "model_version": 2,
+  "model_id": "0764efa6b6ea446692e7ec7880f4c30f"
+}
