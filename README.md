@@ -15,12 +15,13 @@ maven {
 }
 ```
 
-This version of the Fritz SDK corresponded to version 7.0.0. Please update all dependencies to use this version.
+This version of the Fritz SDK corresponded to version 7.0.0 for `core` and `vision` modules and version 4.0.0 for individual models 
 
 ```
 dependencies {
     implementation "ai.fritz:core:7.0.0"
     implementation "ai.fritz:vision:7.0.0"
+    implementation "ai.fritz:vision-object-detection-model-fast:4.0.0"
     ...
 }
 ```
