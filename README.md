@@ -7,11 +7,32 @@ This SDK functions identically to the closed-source Fritz SDK with the exception
 Minimal code changes are required. Most importantly, you will need to update `build.gradle` files
 to reflect the new location of the binaries.
 
+## Updating your gradle dependencies
+
+The GitHub package repository requires the user of a package to have a valid GitHub account. This means you must provide a user name and a personal access token (PAT) to install the dependency. 
+
+**IMPORTANT:** When creating this token, you must select `read:packages` permissions. 
+
+You may store them below in the gradle file (not recommended for security reasons) or as environmental variables.
+
+Alternative, you can [download the packages](https://github.com/orgs/fritzlabs/packages) and host them yourself if needed.
+
 ```
-// ADD FOR FRITZ DEPENDENCIES
+ext {
+
+    // To pull these values from the environment
+    // GITHUB_TOKEN = System.getenv("GITHUB_TOKEN")
+    GITHUB_TOKEN = "YOUR GITHUB PAT TOKEN"
+    GITHUB_USER = "YOUR GITHUB USERNAME"
+}
+
 maven {
     name = "GitHubPackages"
     url = uri("https://maven.pkg.github.com/fritzlabs/fritz-ai-android-sdk")
+    credentials {
+        username GITHUB_USER
+        password GITHUB_TOKEN
+    }
 }
 ```
 
